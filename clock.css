@@ -1,0 +1,39 @@
+@font-face{
+    font-family: Cyberverse;
+    src: url('Cyberverse\ Condensed\ Bold.otf');
+}
+
+* {
+    font-family: Cyberverse;
+    font-size: 48px;
+    font-weight: 200;
+    box-sizing: border-box;
+    margin: 0px;
+    text-align: justify;
+    line-height: 2rem;
+    padding: 20px 20px 20px 20px;
+}
+
+.back{
+    background-color: rgb(8, 99, 46);
+    color: rgb(197, 30, 30);
+    border:0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.number{
+    flex-basis: 13%;
+}
+
+.colon{
+    line-height: 100%;
+    text-align: center;
+}
